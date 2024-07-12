@@ -1,9 +1,8 @@
 "use client";
-import Login from "@/components/Login";
-import Image from "next/image";
 import { motion } from "framer-motion";
+import React from "react";
 
-export default function Home() {
+function page() {
   return (
     <>
       <motion.div
@@ -11,8 +10,10 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <Login />
+        <div>dasboard</div>
       </motion.div>
     </>
   );
 }
+
+export default page;
